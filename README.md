@@ -57,11 +57,12 @@ php artisan key:generate
 
 5. **Configurar la base de datos**
 
-Se debe crear una base de datos llamada base_proyecto
+Se debe crear una base de datos llamada prueba
 
 Edita el archivo `.env` con tus credenciales de MySQL, por ejemplo:
 
 ```
+DB_DATABASE=prueba
 DB_USERNAME=root
 DB_PASSWORD=
 ```
